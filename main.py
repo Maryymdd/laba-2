@@ -62,7 +62,7 @@ class TextEditor:
         try:
             size_window = tk.Toplevel(self.root)
             size_window.title("Настройка размеров окна")
-            size_window.geometry("300x150")
+            size_window.geometry("350x200")
 
             tk.Label(size_window, text="Ширина:").pack(pady=5)
             width_entry = tk.Entry(size_window)
